@@ -1,0 +1,54 @@
+fastapi==0.109.0
+uvicorn==0.27.0
+python-dotenv==1.0.0
+pydantic==2.5.3
+
+# ============ LangChain & RAG ============
+langchain>=0.1.6
+langchain-community>=0.0.19
+langchain-openai>=0.0.5
+langchain-text-splitters>=0.0.1  # Added for chunker.py import
+
+# ============ Vector Database ============
+faiss-cpu
+# chromadb==0.4.22  # Alternative vector DB
+
+# ============ Document Processing ============
+PyMuPDF4LLM>=0.0.17  # Lightweight PyMuPDF wrapper with pre-built wheels for LLM apps
+pdfplumber==0.10.3  # Alternative PDF processor
+nbformat==5.9.2  # For Jupyter Notebook parsing
+nbconvert==7.14.2
+
+
+
+# ============ Speech-to-Text ============
+faster-whisper>=0.10.0
+# openai-whisper==20231117  # Alternative STT
+
+# ============ Text-to-Speech ============
+openai==1.10.0  # For OpenAI TTS
+# TTS==0.22.0  # Coqui TTS (alternative)
+gTTS==2.5.0  # Google TTS (fallback)
+
+# ============ Audio Processing ============
+pydub==0.25.1
+soundfile==0.12.1
+numpy
+librosa==0.10.1
+
+# ============ HTTP & CORS ============
+httpx==0.26.0
+python-multipart==0.0.6
+
+# ============ Utilities ============
+tqdm==4.66.1
+requests==2.31.0
+
+# ============ Optional - Groq LLM API ============
+# groq==0.4.1  # Uncomment if using Groq
+
+# ============ Development & Testing ============
+pytest==7.4.4
+pytest-asyncio==0.23.3
+
+
