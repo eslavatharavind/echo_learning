@@ -18,6 +18,8 @@ PyMuPDF4LLM>=0.0.17  # Lightweight PyMuPDF wrapper with pre-built wheels for LLM
 pdfplumber==0.10.3  # Alternative PDF processor
 nbformat==5.9.2  # For Jupyter Notebook parsing
 nbconvert==7.14.2
+sentence-transformers
+
 
 
 
